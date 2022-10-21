@@ -72,6 +72,7 @@ public class spClient {
     	   Map<String, String> assertion = new HashMap<>();
     	   assertion.put(NameId, nameid);
     	   System.out.println(assertion.put(NameId, nameid));
+    	   System.out.println("New");
     	   //SailPointContext context1=getSailpointContext();
 		//coorelateToIdenity(context1,assertion);
     	   return assertion;
